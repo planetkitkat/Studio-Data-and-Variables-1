@@ -71,10 +71,8 @@ console.log("")
 // When done, have your TA check your code.
 
 
-
-
 // BONUS: Use readline-sync to prompt the user to enter the number of astronauts going on the mission.
 
 const input = require('readline-sync');
-let answer = input.question("Enter number of astronauts on mission: ");
-astronautCount = Number(answer);
+let userInputCount = input.question("Enter number of astronauts on mission: ");
+astronautCount = Number(userInputCount);
